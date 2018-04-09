@@ -1,0 +1,320 @@
+body {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#header {
+	height: 70px;
+	margin-top: 20px;
+}
+
+.showbox {
+	position: relative;
+	height: 300px;
+	width: 670px;
+	overflow: hidden;
+	border: 10px solid #eee;
+	background-color: #eee;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.imagebox {
+	position: relative;
+	height: 270px;
+	width: 670px;
+	top: 0;
+	left: 5px;
+	overflow: hidden;
+}
+
+.imagebox img {
+	display: block;
+	width: 670px;
+	height: 270px;
+	float: left;
+}
+
+.icobox {
+	position: absolute;
+	border: none;
+	width: 120px;
+	height: 12px;
+	left: 320px;
+	bottom: 10px;
+	text-align: center;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+.icobox span {
+	background: url("http://www.itxueyuan.org/uploads/javascript/demo/lunbo/zuoyou_title/images/ico.png") 0px 0px no-repeat;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+	float: left;
+	margin-left: 3px;
+}
+
+.icobox span.active {
+	background: url("http://www.itxueyuan.org/uploads/javascript/demo/lunbo/zuoyou_title/images/ico.png") 0px -12px no-repeat;
+	cursor: default;
+}
+
+.logo {
+	width: 30%;
+}
+
+.logo img {
+	width: 600px;
+	height: 66px;
+}
+
+.search {
+	position: relative;
+	left: 280px;
+	bottom: 50px;
+}
+
+.search input {
+	width: 230px;
+	padding: 5px 0;
+}
+
+.btn-search {
+	background: #FF8C00;
+	padding: 5px 10px;
+	margin-left: -5px;
+}
+
+.header-right {
+	position: relative;
+	left: 700px;
+	bottom: 80px;
+}
+
+.header-right button {
+	padding: 10px;
+	border: none;
+}
+
+.nav {
+	list-style-type: none;
+	padding: 10px;
+	width: 100%;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav a {
+	display: block;
+	width: 120px;
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.nav a:hover {
+	border-bottom: 3px solid #FF8C00;
+	font-size: 23px;
+}
+
+.active {
+	border-bottom: 3px solid #FF8C00;
+	font-size: 23px;
+}
+
+/* 热门筛选 */
+
+#hot-filter {
+	width: 210px;
+	height: 160px;
+	border: 1px solid #a3a3a3;
+	float: right;
+	margin-right: 110px;
+	margin-top: -170px;
+	border-radius: 3px;
+}
+
+.hot-title-wrapper {
+	border-bottom: 1px solid #a3a3a3;
+	padding: 10px 0;
+}
+
+.hot-title {
+	border-bottom: 2px solid #FF8C00;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	width: 80px;
+}
+
+.hot-selected {
+	position: relative;
+	left: -15px;
+}
+
+.hot-selected li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 3px 5px;
+}
+
+.hot-selected a {
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 12px;
+}
+
+.hot-selected a:hover {
+	color: #FF8C00;
+	font-size: 14px;
+}
+
+/* 房屋筛选 */
+
+#house-select {
+	width: 210px;
+	height: 160px;
+	border: 1px solid #a3a3a3;
+	float: right;
+	margin-right: 110px;
+	border-radius: 3px;
+}
+
+#new {
+	width: 210px;
+	border: 1px solid #a3a3a3;
+	float: right;
+	margin-top: 170px;
+	margin-right: -212px;
+	border-radius: 3px;
+}
+
+.new-info-wrap {
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.new-info {
+	margin: 5px;
+	font-size: 14px;
+}
+
+.new-info span {
+	width: 130px;
+	float: right;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	margin: 0 auto;
+}
+
+.new-info a {
+	text-decoration: none;
+	color: black;
+}
+
+.new-info a:hover {
+	color: #FF8C00;
+}
+
+#new img {
+	width: 60px;
+	height: 60px;
+}
+
+.article-header {
+	padding: 10px 0;
+	border-bottom: 2px solid #d9d9d9;
+	width: 680px;
+	margin: 10px 0;
+}
+
+.article-header span {
+	border-left: 3px solid #FF8C00;
+	padding-left: 20px;
+}
+
+.article {
+	border: 1px solid #d9d9d9;
+	width: 680px;
+	height: 230px;
+	margin: 10px 0;
+}
+
+.article-info {
+	position: relative;
+	left: 280px;
+	bottom: 220px;
+	width: 420px;
+}
+
+.article-title {
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.article-title a {
+	text-decoration: none;
+	color: black;
+}
+
+.article-title a:hover {
+	color: #FF8C00;
+}
+
+.article-text {
+	font-size: 14px;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	width: 380px;
+}
+
+.article-wrapper img {
+	width: 260px;
+	height: 220px;
+	padding: 5px;
+}
+
+.article-user {
+	display: inline-block;
+	position: relative;
+	top: 20px;
+}
+
+.user-name {
+	display: inline-block;
+	position: relative;
+	bottom: 25px;
+}
+
+.article-user img {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+.go-top {
+	position: fixed;
+	bottom: 60px;
+	right: 30px;
+	width: 36px;
+	height: 36px;
+	border: 1px solid #a3a3a3;
+	padding: 7px;
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px #a3a3a3;
+}
+
+.top {
+	width: 0;
+	height: 0;
+	border: 18px solid transparent;
+	border-bottom-color: #B0B0B0;
+	margin-top: -8px;
+}

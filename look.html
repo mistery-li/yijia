@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./js/jquery-1.8.3.min.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/login.js"></script>
+  <script src="./js/register.js"></script>
+  <script src="./js/look.js"></script>
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="./login.css" />
+  <link rel="stylesheet" href="./look.css" />
+  <title>一家家居</title>
+</head>
+
+<body>
+  <header id="header">
+    <div class="logo">
+      <img src="./images/logo.png" />
+    </div>
+    <div class="search">
+      <input placeholder="在此搜索装修案例/宝贝" />
+      <button class="btn-search">搜索</button>
+    </div>
+    <div class="header-right">
+      <div class="login">
+        <button id="btnLogin">登录</button>
+        <button id="btnRegister">注册</button>
+      </div>
+    </div>
+  </header>
+  <nav id="nav-box">
+    <ul class="nav">
+      <li>
+        <a href="./index.html">首页</a>
+      </li>
+      <li data='1'>
+        <a href="./look.html" class="active">看图</a>
+      </li>
+      <li data="2">
+        <a href="./house.html">全屋记</a>
+      </li>
+      <li data="3">
+        <a href="./say.html">达人说</a>
+      </li>
+      <li data="4">
+        <a href="./intest.html">众测</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="twoNav">
+    <div>
+      <ul id="zone">
+        <span>空间：</span>
+        <li>
+          <a href="#">客厅</a>
+        </li>
+        <li>
+          <a href="#">餐厅</a>
+        </li>
+        <li>
+          <a href="#">卧室</a>
+        </li>
+        <li>
+          <a href="#">玄关</a>
+        </li>
+        <li>
+          <a href="#">儿童房</a>
+        </li>
+        <li>
+          <a href="#">厨房</a>
+        </li>
+        <li>
+          <a href="#">工作区</a>
+        </li>
+        <li>
+          <a href="#">阳台</a>
+        </li>
+        <li>
+          <a href="#">衣帽间</a>
+        </li>
+        <li>
+          <a href="#">楼梯</a>
+        </li>
+        <li>
+          <a href="#">走廊</a>
+        </li>
+        <li>
+          <a href="#">卫生间</a>
+        </li>
+        <li>
+          <a href="#">书房</a>
+        </li>
+      </ul>
+      <ul id="zone">
+        <span>风格：</span>
+        <li>
+          <a href="#">北欧</a>
+        </li>
+        <li>
+          <a href="#">日式</a>
+        </li>
+        <li>
+          <a href="#">美式</a>
+        </li>
+        <li>
+          <a href="#">地中海</a>
+        </li>
+        <li>
+          <a href="#">混搭</a>
+        </li>
+        <li>
+          <a href="#">欧式</a>
+        </li>
+        <li>
+          <a href="#">中式</a>
+        </li>
+        <li>
+          <a href="#">法式</a>
+        </li>
+        <li>
+          <a href="#">工业风</a>
+        </li>
+        <li>
+          <a href="#">宜家</a>
+        </li>
+        <li>
+          <a href="#">简约</a>
+        </li>
+        <li>
+          <a href="#">田园</a>
+        </li>
+        <li>
+          <a href="#">乡村</a>
+        </li>
+      </ul>
+      <ul id="zone">
+        <span>硬装：</span>
+        <li>
+          <a href="#">电视墙</a>
+        </li>
+        <li>
+          <a href="#">背景墙</a>
+        </li>
+        <li>
+          <a href="#">吧台</a>
+        </li>
+        <li>
+          <a href="#">飘窗</a>
+        </li>
+        <li>
+          <a href="#">隔断</a>
+        </li>
+        <li>
+          <a href="#">卡座</a>
+        </li>
+        <li>
+          <a href="#">干湿分离</a>
+        </li>
+        <li>
+          <a href="#">榻榻米</a>
+        </li>
+        <li>
+          <a href="#">黑板墙</a>
+        </li>
+        <li>
+          <a href="#">壁炉</a>
+        </li>
+      </ul>
+      <ul id="zone">
+        <span>软装：</span>
+        <li>
+          <a href="#">沙发</a>
+        </li>
+        <li>
+          <a href="#">电视柜</a>
+        </li>
+        <li>
+          <a href="#">茶几</a>
+        </li>
+        <li>
+          <a href="#">餐边桌</a>
+        </li>
+        <li>
+          <a href="#">书桌</a>
+        </li>
+        <li>
+          <a href="#">书柜</a>
+        </li>
+        <li>
+          <a href="#">床</a>
+        </li>
+        <li>
+          <a href="#">衣柜</a>
+        </li>
+        <li>
+          <a href="#">床头柜</a>
+        </li>
+        <li>
+          <a href="#">橱柜</a>
+        </li>
+        <li>
+          <a href="#">浴室柜</a>
+        </li>
+        <li>
+          <a href="#">玄关柜</a>
+        </li>
+        <li>
+          <a href="#">台灯</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul class="doChoice">
+        <li>
+          <a href="#" class="choiceSelected">默认</a>
+        </li>
+        <li>
+          <a href="#">最新</a>
+        </li>
+        <li>
+          <a href="#">热门</a>
+        </li>
+        <li>
+          <a href="#" class="shopping-table">有购物单</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="container">
+    <!-- 图片无限加载 -->
+    <div class='box'>
+      <div class='boximg'>
+        <img src="./images/lunbo1.jpg">
+      </div>
+    </div>
+    <div class='box'>
+      <div class='boximg'>
+        <img src="./images/lunbo2.jpg">
+      </div>
+    </div>
+    <div class='box'>
+      <div class='boximg'>
+        <img src="./images/lunbo3.jpg">
+      </div>
+    </div>
+    <div class='box'>
+      <div class='boximg'>
+        <img src="./images/lunbo4.jpg">
+      </div>
+    </div>
+    <div class='box'>
+      <div class='boximg'>
+        <img src="./images/lunbo5.jpg">
+      </div>
+    </div>
+    <div class='box'>
+      <div class='boximg'>
+        <img src="./images/lunbo6.jpg">
+      </div>
+    </div>
+    <div class='box'>
+      <div class='boximg'>
+        <img src="./images/lunbo7.jpg">
+      </div>
+    </div>
+    <div class='box'>
+      <div class='boximg'>
+        <img src="./images/lunbo8.jpg">
+      </div>
+    </div>
+    <div class='box'>
+      <div class='boximg'>
+        <img src="./images/lunbo1.jpg">
+      </div>
+    </div>
+    <div class="go-top">
+        <div class="top"></div>
+      </div>
+  </div>
+</body>
+
+</html>

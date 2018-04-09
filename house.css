@@ -1,0 +1,100 @@
+#header {
+  height: 70px;
+  margin-top: 20px;
+}
+.select-house-type {
+  width: 200px;
+  border: 1px solid #a9a9a9;
+  margin-left: 60px;
+  position: fixed;
+}
+
+
+.title {
+  padding-left: 20px;
+  background: #d9d9d9;
+  height: 18px;
+  font-size: 16px;
+}
+
+.select-house-type a {
+  text-decoration: none;
+  text-align: left;
+  color: black;
+  padding: 5px;
+  margin: auto;
+  font-size: 12px;
+  flex: 22%;
+}
+
+.select-house-type a:hover {
+  color: #FF8C00;
+}
+
+.select-wrapper {
+  margin-left: 3px;
+  padding: 5px 0 10px 0;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.house-size {
+  margin-left: 3px;
+  padding: 5px 0 10px 0;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.house-size a {
+  flex: 40%;
+}
+
+.house {
+  border: 1px solid #d9d9d9;
+  width: 700px;
+  height: 230px;
+  margin: 10px 0;
+  position: relative;
+  left: 270px;
+}
+.house-info {
+  position: relative;
+  left: 390px;
+  top: -220px;
+  width: 300px;
+}
+.house-title {
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+  width: 300px;
+  overflow: hidden;
+}
+.house-title a {
+  text-decoration: none;
+  color: black;
+}
+.house-title a:hover {
+  color: #FF8C00;
+}
+.house-text {
+  font-size: 14px;
+  display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.house img {
+  width: 370px;
+  height: 220px;
+  padding: 5px;
+}
+.house-user {
+  margin-top: 50px;
+}
+.house-user img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
