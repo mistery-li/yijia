@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="./js/jquery-1.8.3.min.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="./js/login.js"></script>
-    <script src="./js/register.js"></script>
-    
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./login.css">
-    <title>一家家居</title>
-  </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./js/jquery-1.8.3.min.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/login.js"></script>
+  <script src="./js/register.js"></script>
+  <script src="./js/say.js"></script>
+
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./login.css">
+  <link rel="stylesheet" href="./say.css">
+  <title>一家家居</title>
+</head>
+
 <body>
   <header id="header">
     <div class="logo">
       <img src="./images/logo.png" />
     </div>
     <div class="search">
-      <input placeholder="在此搜索装修案例/宝贝"/>
+      <input placeholder="在此搜索装修案例/宝贝" />
       <button class="btn-search">搜索</button>
     </div>
     <div class="header-right">
@@ -31,19 +35,121 @@
   </header>
   <nav id="nav-box">
     <ul class="nav">
-      <li><a href="./index.html">首页</a></li>
-      <li data='1'><a href="./look.html">看图</a></li>
-      <li data="2"><a href="./house.html">全屋记</a></li>
-      <li data="3"><a href="./say.html" class="active">达人说</a></li>
-      <li data="4"><a href="./intest.html">众测</a></li>
+      <li>
+        <a href="./index.html">首页</a>
+      </li>
+      <li data='1'>
+        <a href="./look.html">看图</a>
+      </li>
+      <li data="2">
+        <a href="./house.html">全屋记</a>
+      </li>
+      <li data="3">
+        <a href="./say.html" class="active">达人说</a>
+      </li>
     </ul>
   </nav>
   <div>
-    <!-- 图片无限加载 -->
-    
+    <div class="say-carousel">
+      <div class="say-imgbox">
+        <img src="./images/say1.jpg" />
+        <img src="./images/say2.jpg" />
+        <img src="./images/lunbo3.jpg" />
+        <img src="./images/lunbo4.jpg" />
+      </div>
+      <div class="idxbox">
+        <span rel="0" class="active">0</span>
+        <span rel="1">1</span>
+        <span rel="2">2</span>
+        <span rel="3">3</span>
+      </div>
+    </div>
+    <nav id="filter-box">
+      <ul class="filter">
+        <li>
+          <a href="#" class="clicked">编辑精选</a>
+        </li>
+        <li data='1'>
+          <a href="#">购物攻略</a>
+        </li>
+        <li data="2">
+          <a href="#">家装经验</a>
+        </li>
+        <li data="3">
+          <a href="#">搭配指南</a>
+        </li>
+        <li data="4">
+          <a href="#">居家心得</a>
+        </li>
+        <li data="5">
+          <a href="#">风水宝典</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="say">
+      <div class="say-title">
+        <a href="#">在透明的玻璃房子里，体验“住在树上”的感觉 | 旅行家</a>
+      </div>
+      <div class="say-info">
+        <img src="./images/say1.jpg" />
+        <div class="say-user">
+          <span>作者：</span>
+          <span class="say-username">111</span>
+          <p class="desc">「旅行家」是「屋研」的一个小栏目， 想带你一起看遍宇宙好房子。 今天要去的是 ——日本东京。厌倦了城市的钢筋水泥，想不想走出去过过流浪生活？位于东京的透明房子House NA，可以</p>
+          
+        </div>
+      </div>
+        <div class="btn-lookinfo"><a href="#">查看详情</a></div>
+    </div>
+    <div class="say">
+      <div class="say-title">
+        <a href="#">在透明的玻璃房子里，体验“住在树上”的感觉 | 旅行家</a>
+      </div>
+      <div class="say-info">
+        <img src="./images/say1.jpg" />
+        <div class="say-user">
+          <span>作者：</span>
+          <span class="say-username">111</span>
+          <p class="desc">「旅行家」是「屋研」的一个小栏目， 想带你一起看遍宇宙好房子。 今天要去的是 ——日本东京。厌倦了城市的钢筋水泥，想不想走出去过过流浪生活？位于东京的透明房子House NA，可以</p>
+          
+        </div>
+      </div>
+        <div class="btn-lookinfo"><a href="#">查看详情</a></div>
+    </div>
+    <div class="say">
+      <div class="say-title">
+        <a href="#">花小钱来的高级感，ins网红拍照必备这10样宝贝</a>
+      </div>
+      <div class="say-info">
+        <img src="./images/say1.jpg" />
+        <div class="say-user">
+          <span>作者：</span>
+          <span class="say-username">简二家</span>
+          <p class="desc">没养死过琴叶榕的人不足以聊园艺//转眼四月，又来到了交配…春回大地的季节。二姑娘刷着ins上的春意盎然，完全按耐不住想养植物的双手。△家里要好看，就得带点绿~一年之计在于春，面对姿态百</p>
+          
+        </div>
+      </div>
+        <div class="btn-lookinfo"><a href="#">查看详情</a></div>
+    </div>
+    <div class="say">
+      <div class="say-title">
+        <a href="#">在透明的玻璃房子里，体验“住在树上”的感觉 | 旅行家</a>
+      </div>
+      <div class="say-info">
+        <img src="./images/say1.jpg" />
+        <div class="say-user">
+          <span>作者：</span>
+          <span class="say-username">111</span>
+          <p class="desc">「旅行家」是「屋研」的一个小栏目， 想带你一起看遍宇宙好房子。 今天要去的是 ——日本东京。厌倦了城市的钢筋水泥，想不想走出去过过流浪生活？位于东京的透明房子House NA，可以</p>
+          
+        </div>
+      </div>
+        <div class="btn-lookinfo"><a href="#">查看详情</a></div>
+    </div>
   </div>
   <div class="go-top">
-      <div class="top"></div>
-    </div>
+    <div class="top"></div>
+  </div>
 </body>
+
 </html>

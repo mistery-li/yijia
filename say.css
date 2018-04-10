@@ -1,0 +1,139 @@
+.say-carousel {
+	position: relative;
+	height: 300px;
+	width: 670px;
+	overflow: hidden;
+  background-color: #eee;
+  margin-left: 70px;
+}
+
+.say-imgbox {
+	position: relative;
+	height: 270px;
+	width: 670px;
+	top: 0;
+	left: 5px;
+	overflow: hidden;
+}
+
+.say-imgbox img {
+	display: block;
+	width: 670px;
+	height: 270px;
+	float: left;
+}
+
+.idxbox {
+	position: absolute;
+	border: none;
+	width: 120px;
+	height: 12px;
+	left: 320px;
+	bottom: 10px;
+	text-align: center;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+.idxbox span {
+	background: url("http://www.itxueyuan.org/uploads/javascript/demo/lunbo/zuoyou_title/images/ico.png") 0px 0px no-repeat;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+	float: left;
+	margin-left: 3px;
+}
+
+.idxbox span.active {
+	background: url("http://www.itxueyuan.org/uploads/javascript/demo/lunbo/zuoyou_title/images/ico.png") 0px -12px no-repeat;
+	cursor: default;
+}
+
+#filter-box {
+  margin-left: 65px;
+  width: 780px;
+}
+
+.filter {
+  list-style-type: none;
+  border-bottom: 1px solid #a9a9a9;
+  padding-left: 0px;
+}
+
+.filter li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.filter a {
+	display: block;
+	text-decoration: none;
+	color: black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.clicked {
+  border-bottom: 3px solid #FF8C00;
+}
+
+.filter a:hover {
+  border-bottom: 3px solid #FF8C00;
+  color: #FF8C00;
+}
+
+.say {
+  margin-left: 70px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.say-info {
+  height: 280px;
+}
+.say-title {
+  font-size: 20px;
+  padding: 5px 0 15px 0;
+}
+.say-title a {
+  text-decoration: none;
+  color: black;
+}
+.say-title a:hover {
+  color: #FF8C00;
+}
+.say-info img {
+  width: 260px;
+  height: 280px;
+}
+.say-user {
+  position: relative;
+  left: 280px;
+  bottom: 280px;
+}
+.say-username {
+  color: #a9a9a9;
+}
+.desc {
+  color: #a9a9a9;
+  display: -webkit-box;
+	-webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 460px;
+}
+
+.btn-lookinfo a{
+  position: relative;
+  left: 550px;
+  bottom: 40px;
+  border: 1px solid red;
+  color: red;
+  background: #fff;
+  padding: 7px 50px;
+  font-size: 16px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.btn-lookinfo a:hover {
+  background: red;
+  color: #fff;
+}
